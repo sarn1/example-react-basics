@@ -1,0 +1,9 @@
+# example-react-basics
+- https://teamtreehouse.com/library/react-basics
+- React Dev Tools in Chrome
+- Babel = JSX is an extension to the JavaScript language that allows us to use an XML style syntax to build our React.createElement calls.  This means instead of writing this, we can instead write this.  By using a tool that understands JSX, we can translate a JSX tag into a React.createElement call that the browser can execute.  This means typically we need to introduce a built step into our development to translate our JSX code into a regular Java Script.  In development this tool can run in our browser while we run our code which simplifies things but it's not recommended for production.  The compiler weaves to translate JSX code to JavaScript is called Babel.  And it will do a lot more than just translate our JSX syntax.  It can translate features from later versions of JavaScript into a syntax compatible with older JavaScript engines.  This means we can use it to write cutting edge JavaScript features and still be able to run it in browsers that have not yet implemented those features.
+- A React component will create a representation of its markup in JavaScript using basic JavaScript data types like objects, arrays and strings.  This JavaScript representation of the DOM is called the virtual DOM in React.  This allows developers to declarative way to building UI.  Developers don't interact with the DOM directly as writing to the DOM is expensive.  React takes care of figuring out what is different from the virtual DOM against the real DOM and manipulates the real DOM automatically in the most efficient way.
+- Redux is a state management framework using the design pattern flux.
+	- State is data in our application that can change.
+	- In the project, score is a state, it starts at zero, and actions are made to it to change the score.
+	
