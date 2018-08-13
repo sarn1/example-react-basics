@@ -74,6 +74,7 @@ var Stopwatch = React.createClass({
       <div className="stopwatch">
         <h2>Stopwatch</h2>
         <div className="stopwatch-time">{seconds}</div>
+		{ /* ternary if statement here */ }
         { this.state.running ? 
           <button onClick={this.onStop}>Stop</button> 
           : 
